@@ -44,7 +44,10 @@ roslaunch robot_arm_pkg check_motors.launch
 **Change the workspace name and user name tags accordingly**
 
 
+
+
 8. And that's it you can now view the new robot Arm in Rviz and move it freely using the joint state publisher
+
 ![184207078-5555315a-32e9-4172-bcf1-5b197d8b566e](https://user-images.githubusercontent.com/90250848/187873160-00e5521b-2ebf-488d-8059-7c43680becc9.gif)
 
 
