@@ -30,7 +30,7 @@ catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> urdf
 ```
 
 6. Open the .urdf file using a txt editor and replace it's content with the following
-[document.txt](https://github.com/Kalal0/Arduino-Robot-arm-V2-installation/files/9310677/document.txt)
+[document.txt](https://github.com/Yahya19933/Arduino-Robot-Arm-Version2-Installation-on-ROS/blob/main/document.txt)
 
 
 
