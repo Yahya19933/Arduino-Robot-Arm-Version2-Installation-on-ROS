@@ -1,5 +1,5 @@
 # Arduino-Robot-Arm-Version2-Installation-on-ROS
-kvgb
+Installing and configuring arm version2 package robot on ROS
 
 This repository will cover the steps taken to install a different version of the Arduino arm which is shown below. Unlike the previous Arm which was a complete a package and only required to install the package, this one was diffrent. This repistory is a continuation of the previous one and depends on it. To go to the previous arm installation [Arduino-Robot-Arm-Installation-on-ROS](https://github.com/Yahya19933/Arduino-Robot-Arm-Installation-on-ROS.git) 
 
@@ -33,6 +33,7 @@ catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> urdf
 [document.txt](https://github.com/Kalal0/Arduino-Robot-arm-V2-installation/files/9310677/document.txt)
 
 
+
 7.  Now you're done all that's left is to remake the catkin file and run Rviz. Open the cmd and input the following commands
 ```
 cd catkin_*workspace name*
@@ -41,6 +42,7 @@ source /home/*user name*/catkin_*workspace name*/devel/setup.bash
 roslaunch robot_arm_pkg check_motors.launch 
 ```
 **Change the workspace name and user name tags accordingly**
+
 
 8. And that's it you can now view the new robot Arm in Rviz and move it freely using the joint state publisher
 ![184207078-5555315a-32e9-4172-bcf1-5b197d8b566e](https://user-images.githubusercontent.com/90250848/187873160-00e5521b-2ebf-488d-8059-7c43680becc9.gif)
